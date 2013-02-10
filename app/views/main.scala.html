@@ -1,0 +1,19 @@
+@(title: String)(content: Html)
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>memoirsfortwo by Ray</title>
+        <link rel="stylesheet" media="screen" href="@routes.Assets.at("stylesheets/main.css")">
+        <link rel="shortcut icon" type="image/png" href="@routes.Assets.at("images/favicon.png")">
+        <script src="@routes.Assets.at("javascripts/jquery-1.7.1.min.js")" type="text/javascript"></script>
+    </head>
+    <body bgcolor="black" align="center">
+        <!--@content-->
+		<object width="720" height="576">
+			<param name="movie" value="http://www.youtube.com/v/39XIGjAOa7w&vq=hd720&autoplay=1"></param>
+			<embed src="http://www.youtube.com/v/39XIGjAOa7w&vq=hd720&autoplay=1" type="application/x-shockwave-flash" width="720" height="576"></embed>
+		</object>
+    </body>
+</html>
